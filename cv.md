@@ -11,9 +11,9 @@
 
 Стараюсь писать код согласно принципам SOLID, DRY, KISS. Отлично владею Django, Django Rest Framework, PostgreSQL, Doker. Работаю с базами данных, используя простые и сложные запросы SQL, СУБД PostgreSQL. Хорошо разбираюсь в архитектуре проекта.
 Считаю, что нет невыполнимых задач, поэтому с интересом ищу их решение. Есть опыт менторства trainee внутри компании.
-Сейчас работаю над своим Pet-проектом (учет расходов, мониторинг и статистика цен). Своими сильными личностными качествами считаю: аналитическое мышление, нетривиальный подход к решению задач, ответственность, обучаемость.  
+Сейчас дополнительно прохожу курсы по изучению JS. Своими сильными личностными качествами считаю: аналитическое мышление, нетривиальный подход к решению задач, ответственность, обучаемость.  
 
-## Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
+## Навыки 
 
 | BACK                            | FRONT     |
 | ------------------------------- | --------- |
@@ -23,22 +23,51 @@
 | PostgreSQL                      | Markdown  |
 | Doker                           | Bootstrap |
 | GIT                             |           |
-|                                 |           |
 
 ## Примеры кода
 
 ```python
-2+3
+class Command(BaseCommand):
+
+    def handle(self, *args, **options):
+        self.stdout.write(self.style.NOTICE('Hello people'))
 ```
 
 ```js
-JS=5
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="1">Hello World!</p>
+
+<script>
+function myFunction() {
+  let text = document.getElementById("1").innerHTML;
+  document.getElementById("1").innerHTML =
+  text.toLowerCase();
+}
+</script>
+
+</body>
+
 ```
 
+## Опыт работы
 
+### Python Developer  
 
+- ООО "ИТТАС"  c сентября 2021
 
-## Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
+  - Проекты в сфере производства, финтех
+  - Стэк: Python · Django · Django Rest Framework · Django Admin · Rest API · Docker · SQL · PostgreSQL ·
+    Git · Agile · HTML5 · CSS · Paramiko.  
+
+- ООО "Айбион Технолоджиз"  июнь 2021 - август 2021 **ФРИЛАНС**
+
+  * Проект в сфере Medical Care
+  * Стэк: Python · Django · Postman · Bitbucket · Git.  
 
 ## Образование (включая пройденные курсы и тренинги)
 
@@ -52,9 +81,6 @@ JS=5
 | 2021 | Intro to IT                                          | Leverx Group Training Center |
 | 2020 | Python Development, Основы Web-технологий            | IT-Academy                   |
 | 2020 | Программирование на Python                           | Stepik                       |
-|      |                                                      |                              |
-
-
 
 ## Английский язык 
 
