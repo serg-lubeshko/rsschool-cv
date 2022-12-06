@@ -34,23 +34,17 @@ class Command(BaseCommand):
 ```
 
 ```js
-<!DOCTYPE html>
-<html>
-<body>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="1">Hello World!</p>
-
-<script>
-function myFunction() {
-  let text = document.getElementById("1").innerHTML;
-  document.getElementById("1").innerHTML =
-  text.toLowerCase();
-}
-</script>
-
-</body>
+// O(n) time | O(n) space
+const groupOnlyMatureStudentsByGroup = (students) =>
+  students.reduce(
+    (acc, student) =>
+      student.age < 18
+        ? acc
+        : acc[student.groupId]
+        ? acc[student.groupId].push(student) && acc
+        : (acc[student.groupId] = [student]) && acc,
+    {}
+  );
 
 ```
 
