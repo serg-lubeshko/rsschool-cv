@@ -27,6 +27,7 @@ h3 {
 
 body {
     background-color: rgba(0, 125, 0, 0.1);
+
 }
 
 li {
@@ -58,12 +59,14 @@ li:last-child {
 .wrap {
     width: 100%;
     padding: 0 50px;
+    max-width: 1400px;
 }
 
 
 .container {
     /*border: black solid 1px;*/
     margin: 0 auto;
+    margin-bottom: 20px;
     /*background-color: yellow;*/
 }
 
@@ -89,11 +92,11 @@ li:last-child {
 }
 
 
-.main-section__section-name {
+.main-section__section-fio {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /*margin-bottom: 30px;*/
+    margin-bottom: 20px;
 }
 
 /*.left-wrapper{*/
@@ -129,24 +132,25 @@ li:last-child {
     left: 180px;
 }
 
-.icons_box__list {
-    padding: 0;
-}
 
 .boarder-solid {
     /*border: none;*/
     border-top: 20px solid #d8d1c9;
+    margin-bottom: 20px;
 }
 
 .content-section__text {
+    margin-bottom: 20px;
     line-height: 2;
 }
+
 
 .main-section__section-content-1 {
     display: flex;
     flex-direction: row;
     /*flex-basis: 0;*/
 }
+
 
 .content-section {
     width: 50%;
@@ -168,4 +172,49 @@ li:last-child {
 
 .code {
     white-space: pre;
+    margin-bottom: 20px;
+}
+
+.skills__list {
+    list-style: url("assets/icons/checkmark.png") inside;
+}
+
+.skills__list:last-child {
+    margin-bottom: 20px;
+}
+
+.course__list-item {
+    list-style: circle inside;
+}
+
+.course__list-item:last-child {
+    margin-bottom: 20px;
+}
+
+
+.project__list-item {
+    list-style: lower-latin inside;
+}
+
+.project__list-item:last-child {
+    margin-bottom: 20px;
+}
+
+.last-section{
+    border: none;
+}
+
+.footer{
+    background-color: #9daf7c;
+    min-height: 70px;
+    /*padding: 20px;*/
+}
+
+.footer__container {
+    max-width: 1400px;
+    padding-left: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
