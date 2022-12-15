@@ -21,7 +21,7 @@ time, mark, audio, video {
     box-sizing: border-box;
 }
 
-h3 {
+h2 {
     margin-bottom: 20px;
 }
 
@@ -37,6 +37,7 @@ li {
 
 li:last-child {
     margin-bottom: 0;
+
 }
 
 
@@ -54,12 +55,16 @@ li:last-child {
     align-items: center;
     background-color: #9daf7c;
     margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+
 }
 
 .main {
     width: 100%;
     padding: 0 50px;
     max-width: 1400px;
+    padding-top: 80px;
 }
 
 
@@ -112,11 +117,13 @@ li:last-child {
     /*border: 3px solid green; !* Параметры рамки *!*/
     box-shadow: 0 0 7px #666; /* Параметры тени */
     height: 210px;
-    width: 210px
+    width: 210px;
+    align-self: center;
+
 }
 
 .right-wrapper__title {
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
     color: brown;
 
@@ -227,4 +234,5 @@ li:last-child {
 .footer__href {
     display: flex;
     align-items: center;
+
 }
